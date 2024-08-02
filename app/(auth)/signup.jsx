@@ -34,7 +34,7 @@ const signup = () => {
         
         router.replace('/Home');
       } catch (error) {
-        Alert.alert('You have been registered, now login');
+        Alert.alert('You have been registered, now login'); 
       }finally{
         setisSubmitting(false);
       }
